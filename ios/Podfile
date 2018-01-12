@@ -1,0 +1,14 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '8.0'
+
+target 'F82017' do
+
+  pod 'Bolts'
+  pod 'FBSDKCoreKit'
+  pod 'FBSDKShareKit'
+  pod 'FBSDKLoginKit'
+  pod 'FBSDKPlacesKit'
+  pod 'FBSDKMessengerShareKit'
+
+end
+

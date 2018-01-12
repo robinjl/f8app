@@ -216,7 +216,7 @@ const styles = StyleSheet.create({
   },
   day: {
     color: F8Colors.yellow,
-    fontFamily: F8Fonts.fontWithWeight("basis", "helveticaBold"),
+    fontFamily: F8Fonts.fontWithWeight("helvetica", "helveticaBold"),
     fontSize: 13,
 
     android: {

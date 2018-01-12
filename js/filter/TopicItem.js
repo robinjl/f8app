@@ -86,7 +86,7 @@ const styles = StyleSheet.create({
     justifyContent: "space-between"
   },
   title: {
-    fontFamily: F8Fonts.fontWithWeight("basis", "offWhite"),
+    fontFamily: F8Fonts.fontWithWeight("helvetica", "offWhite"),
     fontSize: 17,
     color: "white",
     flex: 1

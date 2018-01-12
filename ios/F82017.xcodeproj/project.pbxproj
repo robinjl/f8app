@@ -35,10 +35,6 @@
 		2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E991DF850E9000B6D8A /* libRCTWebSocket-tvOS.a */; };
 		2D02E4C91E0B4AEC006451C7 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* F82017Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* F82017Tests.m */; };
-		3009A9271DF88122006B5D62 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3009A9231DF88122006B5D62 /* Bolts.framework */; };
-		3009A9281DF88122006B5D62 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3009A9241DF88122006B5D62 /* FBSDKCoreKit.framework */; };
-		3009A9291DF88122006B5D62 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3009A9251DF88122006B5D62 /* FBSDKLoginKit.framework */; };
-		3009A92A1DF88122006B5D62 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3009A9261DF88122006B5D62 /* FBSDKShareKit.framework */; };
 		3035251A1E4BFD4E0003A60D /* launchscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 303525171E4BFD4E0003A60D /* launchscreen.png */; };
 		3035251B1E4BFD4E0003A60D /* launchscreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 303525181E4BFD4E0003A60D /* launchscreen@2x.png */; };
 		3035251C1E4BFD4E0003A60D /* launchscreen@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 303525191E4BFD4E0003A60D /* launchscreen@3x.png */; };
@@ -48,6 +44,7 @@
 		3098A8FF1E7C64CD0003742F /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3098A8FE1E7C64CD0003742F /* libz.tbd */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		83E9A4F1B6B2870EA1DD87C5 /* libPods-F82017.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3649C040B4976FEDC63E737A /* libPods-F82017.a */; };
 		B2C3247ED20945EDAAD12F70 /* libRCTFBSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E12A673783B9486B87E8AE7B /* libRCTFBSDK.a */; };
 		FC554BF677604211A694CB54 /* libBVLinearGradient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8428BBB5DFD14C4AA4194341 /* libBVLinearGradient.a */; };
 /* End PBXBuildFile section */
@@ -317,11 +314,14 @@
 		309371D01E2DBE160019E3C2 /* 512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 512.png; sourceTree = "<group>"; };
 		309371D21E2DBEAE0019E3C2 /* 512@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "512@2x.png"; sourceTree = "<group>"; };
 		3098A8FE1E7C64CD0003742F /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		3649C040B4976FEDC63E737A /* libPods-F82017.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-F82017.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43BA46BFE4A0FFAB4217A843 /* Pods-F82017.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-F82017.release.xcconfig"; path = "Pods/Target Support Files/Pods-F82017/Pods-F82017.release.xcconfig"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		75B177E8AB114A5C9AE0BF0C /* BVLinearGradient.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = BVLinearGradient.xcodeproj; path = "../node_modules/react-native-linear-gradient/BVLinearGradient.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		8428BBB5DFD14C4AA4194341 /* libBVLinearGradient.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libBVLinearGradient.a; sourceTree = "<group>"; };
+		9221C074F73B54E14540C2E1 /* Pods-F82017.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-F82017.debug.xcconfig"; path = "Pods/Target Support Files/Pods-F82017/Pods-F82017.debug.xcconfig"; sourceTree = "<group>"; };
 		AC84A694044143A5965F8E75 /* RCTFBSDK.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTFBSDK.xcodeproj; path = "../node_modules/react-native-fbsdk/ios/RCTFBSDK.xcodeproj"; sourceTree = "<group>"; };
 		D88E526290554232ABA3F7BC /* RNVideoPlayer.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNVideoPlayer.xcodeproj; path = "../node_modules/react-native-native-video-player/ios/RNVideoPlayer.xcodeproj"; sourceTree = "<group>"; };
 		E12A673783B9486B87E8AE7B /* libRCTFBSDK.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTFBSDK.a; sourceTree = "<group>"; };
@@ -341,8 +341,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				308E35A01E8C2A5E00CAC09E /* libRCTPushNotification.a in Frameworks */,
-				3009A9291DF88122006B5D62 /* FBSDKLoginKit.framework in Frameworks */,
-				3009A9271DF88122006B5D62 /* Bolts.framework in Frameworks */,
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
@@ -355,12 +353,11 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
-				3009A92A1DF88122006B5D62 /* FBSDKShareKit.framework in Frameworks */,
-				3009A9281DF88122006B5D62 /* FBSDKCoreKit.framework in Frameworks */,
 				B2C3247ED20945EDAAD12F70 /* libRCTFBSDK.a in Frameworks */,
 				FC554BF677604211A694CB54 /* libBVLinearGradient.a in Frameworks */,
 				0186555E1614488AAE4A6B43 /* libRNVideoPlayer.a in Frameworks */,
 				3098A8FF1E7C64CD0003742F /* libz.tbd in Frameworks */,
+				83E9A4F1B6B2870EA1DD87C5 /* libPods-F82017.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,6 +570,7 @@
 				3009A9241DF88122006B5D62 /* FBSDKCoreKit.framework */,
 				3009A9251DF88122006B5D62 /* FBSDKLoginKit.framework */,
 				3009A9261DF88122006B5D62 /* FBSDKShareKit.framework */,
+				3649C040B4976FEDC63E737A /* libPods-F82017.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -618,6 +616,7 @@
 				7A3404E71E26487D967C39EB /* Frameworks */,
 				B6298A78CBB448B794708EE9 /* Resources */,
 				3006989C1F0338030070FAAA /* Recovered References */,
+				9715557F59753653906ECCD4 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -632,6 +631,15 @@
 				2D02E4901E0B4A5D006451C7 /* F82017-tvOSTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		9715557F59753653906ECCD4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9221C074F73B54E14540C2E1 /* Pods-F82017.debug.xcconfig */,
+				43BA46BFE4A0FFAB4217A843 /* Pods-F82017.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		B6298A78CBB448B794708EE9 /* Resources */ = {
@@ -666,10 +674,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "F82017" */;
 			buildPhases = (
+				D9875623C3CE2E4900E54F62 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				72D16D7A9EF65B7F891F99FC /* [CP] Embed Pods Frameworks */,
+				441FB53C639B9880CA2E986F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -730,10 +741,10 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = 9B8M3M76P9;
+						DevelopmentTeam = 6C9D59526A;
 						SystemCapabilities = {
 							com.apple.Push = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -1112,6 +1123,57 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/packager/react-native-xcode.sh";
 		};
+		441FB53C639B9880CA2E986F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-F82017/Pods-F82017-resources.sh",
+				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-F82017/Pods-F82017-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72D16D7A9EF65B7F891F99FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-F82017/Pods-F82017-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9875623C3CE2E4900E54F62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-F82017-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1226,26 +1288,27 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9221C074F73B54E14540C2E1 /* Pods-F82017.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODEPUSH_KEY = "o5k128-QbdToCO12IQl4zgJlxZQbVkEG2YjY-";
-				CODE_SIGN_ENTITLEMENTS = F82017/F82017.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = 9B8M3M76P9;
+				DEVELOPMENT_TEAM = 6C9D59526A;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 					"$(SRCROOT)/../node_modules/react-native/React/**",
 				);
 				INFOPLIST_FILE = F82017/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.parse.f8;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parse.f8.learning;
 				PRODUCT_NAME = F82017;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -1253,25 +1316,26 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43BA46BFE4A0FFAB4217A843 /* Pods-F82017.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODEPUSH_KEY = "qFZ_DANxpdRqMzw6anqVg9Z0D_RuVkEG2YjY-";
-				CODE_SIGN_ENTITLEMENTS = F82017/F82017.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9B8M3M76P9;
+				DEVELOPMENT_TEAM = 6C9D59526A;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 					"$(SRCROOT)/../node_modules/react-native/React/**",
 				);
 				INFOPLIST_FILE = F82017/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.parse.f8;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parse.f8.learning;
 				PRODUCT_NAME = F82017;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
